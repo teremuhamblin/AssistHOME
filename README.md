@@ -2,15 +2,22 @@
 
 ---
 
-📦 ✅ OS-Personnel
-   — Version 5.0.0 — Quantum Stability Release
+# 📦 AssistHOME
 
-Système d’exploitation minimaliste, sécurisé et conteneurisé, conçu pour une mission unique :  
-fournir une base stable, résiliente et auto‑maintenue pour exécuter un service principal ou un ensemble de services en environnement contrôlé.
+## ✅ OS-Personnel
+   - — Version 5.0.0
+   - — Quantum Stability Release
+
+**Système d’exploitation sécurisé et conteneurisé, conçu pour une mission unique** :  
+```text
+Fournir une base stable, résiliente et auto‑maintenue pour exécuter un service principal ou un ensemble de services en environnement contrôlé.
+```
 
 ---
 
-🎯 Objectifs (v5.0.0)
+### 🎯 Objectifs
+>> v5.0.0
+```text
 - OS minimal basé sur Buildroot
 - Rootfs en lecture seule (SquashFS) pour garantir l’intégrité
 - Partition /data en btrfs avec snapshots (v4+)
@@ -20,10 +27,11 @@ fournir une base stable, résiliente et auto‑maintenue pour exécuter un servi
 - Sécurité avancée : AppArmor, sandboxing, firewall nftables
 - Multi‑plateformes : x86_64 UEFI, Raspberry Pi 4, Raspberry Pi 5
 - Architecture modulaire, évolutive, doctrinale
+```
 
----
-
-🧬 Capacités principales (v1 → v5)
+### 🧬 Capacités principales
+>> v1 → v5
+```text
 - v1 : Fondation Buildroot + Docker + SquashFS  
 - v2 : Renforcement structurel + ZRAM + optimisation kernel  
 - v3 : Multi‑services + monitoring + gestion des secrets  
@@ -110,3 +118,16 @@ Libre d’utilisation et de modification.
 OS-Personnel v5.0.0 est désormais un système complet, stable, sécurisé, auto‑maintenu et multi‑plateformes, prêt pour les évolutions v6+ (HA‑like, cluster, nodes, etc.).
 
 ---
+
+### 🧭 Gouvernance GitHub
+- Issues globales : issue.md
+- Discussions globales : discussion.md
+- PR globales : pull_request.md
+- Support : .github/SUPPORT.md
+- Code de conduite : .github/CODEOFCONDUCT.md
+- Contributing : .github/CONTRIBUTING.md
+
+---
+
+### 🧱 État du projet
+OS-Personnel v5.0.0 est désormais un système complet, stable, sécurisé, auto‑maintenu et multi‑plateformes, prêt pour les évolutions v6+ (HA‑like, cluster, nodes, etc.).
