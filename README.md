@@ -47,27 +47,27 @@ Fournir une base stable, résiliente et auto‑maintenue pour exécuter un servi
 
 ---
 
-🛠️ Buildroot & Système
+### 🛠️ Buildroot & Système
+```text
 - Configurations multi‑plateformes (configs/)
 - Kernel minimal optimisé (linux.config)
 - Overlay strict (overlay/)
 - Services systemd (docker.service, core-service.service, supervisor.service)
 - Scripts d’initialisation (os-init.sh)
 - Packages internes (Docker, Podman, Supervisor)
+```
+
+### 🔧 Mainteneurs
+> Voir **maintainers.md**
 
 ---
 
-🔧 Mainteneurs
-> Voir maintainers.md.
+### 👥 Contributeurs
+> Voir **all-contributors.md**
 
 ---
 
-👥 Contributeurs
-> Voir all-contributors.md.
-
----
-
-📅 Roadmap & Versions
+### 📅 Roadmap & Versions
 - Roadmap complète v1 → v5 : ROADMAP.md
 - Historique complet : CHANGELOG.md
 - Milestones : milestone.md
@@ -75,33 +75,29 @@ Fournir une base stable, résiliente et auto‑maintenue pour exécuter un servi
 
 ---
 
-🔐 Sécurité
-> Voir .github/SECURITY.md.
+### 🔐 Sécurité
+> Voir **.github/SECURITY.md**
 
-Inclut :
-- AppArmor (v5)
-- nftables firewall (v4+)
-- Rootfs en lecture seule
-- Sandboxing des conteneurs
-- Gestion des secrets (v3+)
+- Inclut :
+   - AppArmor (v5)
+   - nftables firewall (v4+)
+   - Rootfs en lecture seule
+   - Sandboxing des conteneurs
+   - Gestion des secrets (v3+)
 
----
-
-🛡️ Résilience & Maintenance
+### 🛡️ Résilience & Maintenance
 - Snapshots btrfs (v4+)
 - Mises à jour OTA RAUC (v5)
 - Superviseur interne (v5)
 - Logs centralisés via Loki (v5)
 
----
-
-📜 Licence
-LICENSE AssistGOME PERSO  
-Libre d’utilisation et de modification.
+### 📜 Licence
+>LICENSE AssistHOME PERSO  
+- Libre d’utilisation et de modification.
 
 ---
 
-🧭 Gouvernance GitHub
+### 🧭 Gouvernance GitHub
 - Issues globales : issue.md
 - Discussions globales : discussion.md
 - PR globales : pull_request.md
@@ -111,7 +107,5 @@ Libre d’utilisation et de modification.
 
 ---
 
-🧱 État du projet
+### 🧱 État du projet
 OS-Personnel v5.0.0 est désormais un système complet, stable, sécurisé, auto‑maintenu et multi‑plateformes, prêt pour les évolutions v6+ (HA‑like, cluster, nodes, etc.).
-
----
